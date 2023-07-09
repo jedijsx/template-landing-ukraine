@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0B0D0C;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 24px 0px 24px 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+    gap: 0 40px;
+}
+
+.menu-link {
+    font-size: 16px;
+    color: #0057B8;
+    transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.menu-link:hover {
+    color: #FFD700;
+}
+
+.logo-img {
+    height: 32px;
+    width: 32px;
+}
