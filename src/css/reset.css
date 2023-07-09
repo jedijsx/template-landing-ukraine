@@ -1,0 +1,56 @@
+/* Обнулення стилів */
+
+/* Встановлення значень за замовчуванням */
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+figure,
+form, fieldset, legend, label,
+input, textarea, button,
+th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Встановлення властивостей для блоків */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Завдання типографських стилів за замовчуванням */
+body {
+  line-height: 1.5;
+}
+
+/* Завдання шрифтів за замовчуванням */
+body, button, input, select, textarea {
+  font-family: sans-serif;
+}
+
+/* Виправлення відсутності вертикального вирівнювання для поточних блоків */
+img {
+  vertical-align: middle;
+}
+
+/* Виправлення відсутності вирівнювання тексту для кнопок */
+button, input, select, textarea {
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* Виправлення відсутності курсора у веб-елементів, що не є посиланнями */
+button, input, optgroup, select, textarea {
+  cursor: pointer;
+}
+
+/* Видалення декоративних стилів посилань */
+a {
+  text-decoration: none;
+}
+
+/* Встановлення властивостей для списків */
+ol, ul {
+  list-style: none;
+}

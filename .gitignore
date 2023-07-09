@@ -1,0 +1,12 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# json
+package-lock.json
