@@ -103,4 +103,10 @@ body {
     font-size: 100px;
     max-width: 1100px;
     margin: 0 auto;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.arrow {
+    align-self: center;
 }
