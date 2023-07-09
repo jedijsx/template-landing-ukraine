@@ -43,7 +43,7 @@ body {
 }
 
 .header {
-    padding: 24px 0px 24px 0px;
+    padding: 24px 0px;
     position: absolute;
     left: 0;
     right: 0;
@@ -63,7 +63,7 @@ body {
 
 .menu-link {
     font-size: 16px;
-    color: #0057B8;
+    color: #ffffff;
     transition: color 0.4s ease, opacity 0.4s ease;
 }
 
@@ -74,4 +74,33 @@ body {
 .logo-img {
     height: 32px;
     width: 32px;
+}
+
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero__inner {
+    min-height: 100vh;
+    padding-top: 80px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.title {
+    font-family: 'Nyght Serif';
+    font-size: 100px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
