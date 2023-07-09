@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'Nyght Serif Dark';
+    font-weight: 800;
+    font-style: normal;
+    src: url(../fonts/NyghtSerif-Dark.woff2);
+}
+
+@font-face {
+    font-family: 'Nyght Serif Dark Italic';
+    font-weight: 800;
+    font-style: normal;
+    src: url(../fonts/NyghtSerif-DarkItalic.woff2);
+}
+
+@font-face {
+    font-family: 'Nyght Serif';
+    font-weight: 300;
+    font-style: italic;
+    src: url(../fonts/NyghtSerif-LightItalic.woff2);
+}
+
 html {
     box-sizing: border-box;
 }
