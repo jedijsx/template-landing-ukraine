@@ -10,3 +10,6 @@ npm-debug.log*
 
 # json
 package-lock.json
+
+# project files
+src/images/original/

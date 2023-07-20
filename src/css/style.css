@@ -1,3 +1,12 @@
+:root {
+    --main-blue: #0057B8;
+    --main-yellow: #FFD700;
+    --color-font-dark: #0B0D0C;
+    --color-font-light: #FFFFFF;
+    --color-border-dark: #0B0D0C;
+    --color-border-light: #FFFFFF;
+  }
+
 @font-face {
     font-family: 'Nyght Serif Dark';
     font-weight: 800;
@@ -13,7 +22,7 @@
 }
 
 @font-face {
-    font-family: 'Nyght Serif';
+    font-family: 'Nyght Serif Italic';
     font-weight: 300;
     font-style: italic;
     src: url(../fonts/NyghtSerif-LightItalic.woff2);
@@ -33,17 +42,17 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #0B0D0C;
+    color: var(--color-font-dark);
 }
 
 .container {
-    max-width: 1220px;
-    padding: 0 10px;
+    max-width: 1280px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
 .header {
-    padding: 24px 0px;
+    padding: 24px 0;
     position: absolute;
     left: 0;
     right: 0;
@@ -63,12 +72,12 @@ body {
 
 .menu-link {
     font-size: 16px;
-    color: #ffffff;
+    color: var(--color-font-light);
     transition: color 0.4s ease, opacity 0.4s ease;
 }
 
 .menu-link:hover {
-    color: #FFD700;
+    color: var(--main-yellow);
 }
 
 .logo-img {
@@ -87,7 +96,7 @@ body {
     min-height: 100vh;
     padding-top: 80px;
     text-align: center;
-    color: #fff;
+    color: var(--color-font-light);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -99,14 +108,58 @@ body {
 }
 
 .title {
-    font-family: 'Nyght Serif';
+    font-family: 'Nyght Serif Italic', serif;
     font-size: 100px;
     max-width: 1100px;
     margin: 0 auto;
-    border-bottom: 1px solid #fff;
-    border-top: 1px solid #fff;
+    border-bottom: 1px solid var(--color-border-light);
+    border-top: 1px solid var(--color-border-light);
 }
 
 .arrow {
     align-self: center;
 }
+
+.history {
+    margin-bottom: 120px;
+}
+
+.history__inner {
+    padding-top: 120px;
+    display: block;
+}
+
+.history__content {
+    flex-basis: 600px;
+}
+
+.history__title {
+    font-family: 'Nyght Serif Dark';
+    font-size: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid var(--color-font-dark);
+}
+
+.history__textbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history__text {
+    flex-basis: 600px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.history__text--strong {
+    font-family: 'Nyght Serif Italic';
+    font-size: 64px;
+    padding: 0;
+}
+
+.history__image {
+    width: 1240px;
+    height: auto;
+    object-fit: cover;
+}
+
