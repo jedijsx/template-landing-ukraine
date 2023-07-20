@@ -41,7 +41,7 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     color: var(--color-font-dark);
 }
 
@@ -147,7 +147,7 @@ body {
 
 .history__text {
     flex-basis: 600px;
-    padding-top: 40px;
+    padding-top: 24px;
     margin-bottom: 40px;
 }
 
@@ -155,6 +155,10 @@ body {
     font-family: 'Nyght Serif Italic';
     font-size: 64px;
     padding: 0;
+}
+
+.history__text--description {
+    line-height: 2;
 }
 
 .history__image {
@@ -196,6 +200,8 @@ body {
 .button {
     background-color: var(--main-blue);
     color: var(--color-font-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
     padding: 24px 48px;
     display: inline-block;
     margin-top: 40px;
@@ -204,5 +210,16 @@ body {
 
 .button:hover {
     background-color: var(--main-yellow);
+}
+
+.history__container {
+    position: relative;
+}
+
+.button--strong {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 120px;
 }
 
