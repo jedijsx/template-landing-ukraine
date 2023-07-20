@@ -163,3 +163,46 @@ body {
     object-fit: cover;
 }
 
+.places {
+    background-image: url(../images/places-image-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-font-light);
+    padding: 80px 0;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.places__inner {
+    background-color: #00ffee24;
+    padding: 80px;
+}
+
+.places__title {
+    font-family: 'Nyght Serif Dark';
+    font-size: 40px;
+    color: inherit;
+}
+
+.places__text {
+    color: inherit;
+    max-width: 680px;
+    margin-top: 40px;
+}
+
+.button {
+    background-color: var(--main-blue);
+    color: var(--color-font-light);
+    padding: 24px 48px;
+    display: inline-block;
+    margin-top: 40px;
+    transition: background-color 0.4s ease, opacity 0.4s ease;
+}
+
+.button:hover {
+    background-color: var(--main-yellow);
+}
+
